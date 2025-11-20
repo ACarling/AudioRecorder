@@ -1,0 +1,28 @@
+select {
+    min-width: 100px;
+}
+
+textarea {
+    width: 500px;
+    height: 500px;
+}
+
+.status-text {
+    height: 100px;
+    overflow-y: auto;
+    white-space: pre;
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+}
+canvas {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 10px;
+}
+
+.hint {
+    white-space: pre;
+}
